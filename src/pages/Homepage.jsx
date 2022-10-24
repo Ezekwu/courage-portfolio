@@ -1,12 +1,25 @@
 import Header from "../components/layout/Header"
 import Projects from "../components/layout/Projects"
+import Articles from "../components/layout/Articles"
 import { projectsInfo } from "../data/projects/Projects"
+import { articlesData } from "../data/articles/articles"
 import { StyledHomepage } from "../components/styles/HomepageStyled"
 import Accordion from "../components/layout/Accordion"
+import { useState } from "react"
+
 const Homepage = () => {
     const headerMessage ={
         content: "Hey! i'm courage, the one-stop person for your product design needs"
     }
+
+    let articlesFiltred = []
+    const filterArticle = () => {
+        articlesFiltred = articlesData.slice(0, 3)
+    }
+    filterArticle()
+    
+
+    
     
     return (
         <StyledHomepage >
@@ -40,6 +53,13 @@ const Homepage = () => {
                 </div>
             </div>
         </section>
+        <section className="articles">
+            <div className="container">
+                <h2>My recent thoughts</h2>
+                <Articles  articles={articlesFiltred}/>
+            </div>
+        </section>
+        
         </StyledHomepage>
     )
 }

@@ -14,8 +14,9 @@ padding-top: 1.5rem;
         cursor: pointer;
         justify-content: space-between;
         align-items: center;
+
         h3, span{
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
         span{
             transition: all .7s cubic-bezier(0,1,0,1);

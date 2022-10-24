@@ -3,13 +3,15 @@ const Projects = ({projectData}) => {
     console.log(projectData);
     return (
         <StyledProject>
-            {projectData.map((project) => (
-                <div className="project-item">
-                    <img src={project.image} alt="" />
-                    <div className="title"><span>{project.icon}</span> <p>{project.title}</p></div>
-                    <p className="description">{project.description}</p>
-                </div>
-            ))}
+            <div className="container wrapper-grid">
+                {projectData.map((project) => (
+                    <div className="project-item">
+                        <img src={project.image} alt="" />
+                        <div className="title"><span>{project.icon}</span> <p>{project.title}</p></div>
+                        <p className="description">{project.description}</p>
+                    </div>
+                ))}
+            </div>
             
         </StyledProject>
     )

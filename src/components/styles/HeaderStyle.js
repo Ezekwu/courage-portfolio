@@ -4,19 +4,17 @@ export const StyledHeader = styled.header`
 color: #fff;
 
 
-h1{
-    width: 55%;
-    font-size: 3.3rem;
-    font-weight: bold;
-    font-family: 'Fraunces', serif;
-    line-height: 4.8rem;
-    
-}
+
 
 //HOME PAGE HEADER
 .homepage-h1{
     margin-top: 4rem;
     margin-bottom: 1rem;
+    width: 55%;
+    font-size: 3.3rem;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    line-height: 4.8rem;
 }
 
 .img-container{
@@ -29,5 +27,15 @@ h1{
     }
 }
 
+.link-h2{
+    padding: 2rem 0;
+    h2{
+        border-bottom: 1px solid #9b9b9b;
+        padding-bottom: 2rem;
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: 'Fraunces', serif;
+    }
+}
 
 `

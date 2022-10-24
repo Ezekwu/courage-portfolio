@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledHomepage =  styled.div`
     
     .summary{
-        background-color: #242222;
+        background: #161616;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -18,12 +18,12 @@ export const StyledHomepage =  styled.div`
     }
 
     .projects{
-        background: #161616;
+        background: #242222;
         padding: 3.8rem 0;
     }
 
     .FAQ{
-        background: #242222;
+        background: #161616;
         padding: 3.8rem 0;
         
         .FAQ-flex{
@@ -34,7 +34,7 @@ export const StyledHomepage =  styled.div`
                 h2{
                     font-family: 'Fraunces', serif;
                     font-weight: bold;
-                    font-size: 3rem;
+                    font-size: 2.5rem;
                 }
             }
             .col-2{
@@ -42,5 +42,15 @@ export const StyledHomepage =  styled.div`
             }
         }
         
+    }
+    .articles{
+        background: #161616;
+        padding: 3.8rem 0;
+        h2{
+            font-family: 'Fraunces', serif;
+            font-weight: bold;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            }
     }
 `

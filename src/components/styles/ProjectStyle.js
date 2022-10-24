@@ -1,13 +1,18 @@
 import styled from "styled-components";
 export const StyledProject = styled.div`
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-gap: 1.5rem;
+padding: 3.8rem 0;
+background: #242222;
 img{
     /* height: 400px; */
     margin-bottom: .8rem;
     
 }
+.wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
 .project-item{
     margin-bottom: .5rem;
     .title{
