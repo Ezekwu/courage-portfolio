@@ -20,7 +20,7 @@ const Header = ({content, type}) => {
                 }
                 {
                     type === 'about' && <div className="about">
-                        <h1 className="about-h1">Hey! I’m Courage, a product designer and writer based in Nigeria.</h1>
+                        <h1 className="about-h1">Hey! I’m Courage, a product <br /> designer and writer <br /> based in Nigeria.</h1>
 
                         <p>Based in Africa - Avaliabe worldwide</p>
 

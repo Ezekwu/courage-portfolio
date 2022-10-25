@@ -14,7 +14,7 @@ color: #fff;
     font-size: 3.3rem;
     font-weight: bold;
     font-family: 'Fraunces', serif;
-    line-height: 4.8rem;
+    line-height: 4rem;
 }
 
 .img-container{
@@ -35,6 +35,23 @@ color: #fff;
         font-size: 2.5rem;
         font-weight: bold;
         font-family: 'Fraunces', serif;
+    }
+}
+
+.about{
+    text-align: center;
+
+    h1{
+        font-size: 3.3rem;
+        font-weight: bold;
+        font-family: 'Fraunces', serif;
+        line-height: 4rem;
+        margin: 5rem 0;
+        
+    }
+    p{
+        font-size: 1.3rem;
+        padding-bottom: 6.8rem;
     }
 }
 
