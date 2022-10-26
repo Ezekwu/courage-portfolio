@@ -5,6 +5,8 @@ import Footer from './components/layout/Footer';
 import Projectspage from './pages/Projects';
 import Writing from './pages/Writing';
 import Aboutme from './pages/Aboutme';
+import Contact from './pages/Contact';
+import Socialverse from './pages/Socialverse';
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,8 @@ function App() {
           <Route path='/projects' element={<Projectspage />} />
           <Route path='/writing' element={<Writing />} />
           <Route path='/aboutme' element={<Aboutme />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/projects/socialverse' element={<Socialverse />} />
         </Routes>
         <Footer />
       </Router>

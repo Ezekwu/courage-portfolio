@@ -1,7 +1,7 @@
 import styled from "styled-components";
 export const StyledProject = styled.div`
 padding: 3.8rem 0;
-background: #242222;
+
 img{
     /* height: 400px; */
     margin-bottom: .8rem;
@@ -20,11 +20,10 @@ img{
         font-weight: 300;
         margin-bottom: .5rem;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         p, span{ 
             font-size: 1.5rem;
         }
-        
     }
     .description{
         width: 90%;

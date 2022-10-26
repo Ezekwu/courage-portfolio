@@ -3,7 +3,7 @@ const Projects = ({projectData}) => {
     console.log(projectData);
     return (
         <StyledProject>
-            <div className="container wrapper-grid">
+            <div className=" wrapper-grid">
                 {projectData.map((project) => (
                     <div className="project-item">
                         <img src={project.image} alt="" />

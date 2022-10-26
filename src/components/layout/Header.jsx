@@ -14,6 +14,7 @@ const Header = ({content, type}) => {
                 <Navbar />
                 {type === 'homepage' && <h1 className='homepage-h1'>{content}</h1>}
                 {type === 'homepage' &&  <div className='img-container'><img src={StartProject} alt="start a project" /></div>}
+                {type === 'homepage' && <a href='' className='start-project'> start a project</a>}
                 {type === 'link' && <div className='link-h2'>
                     <h2>{content}</h2>
                 </div>

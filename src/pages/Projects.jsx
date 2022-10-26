@@ -9,7 +9,9 @@ const Projectspage = () => {
         <div>
             <Header  content='Projects' type='link'/>
             <div className="project-page_project-wrapper">
-            <Projects projectData={projectsInfo} />
+                <div className="container">
+                    <Projects projectData={projectsInfo} />
+                </div>
             </div>
         </div>
     )

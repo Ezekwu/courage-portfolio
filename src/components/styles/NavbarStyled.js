@@ -6,6 +6,9 @@ justify-content: space-between;
 align-items: center;
 padding-top: 1rem;
 padding-bottom: 1rem;
+a{
+    text-decoration:none;
+}
 
 .logo{
     font-size: 2rem;

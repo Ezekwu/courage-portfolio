@@ -4,7 +4,7 @@ import { StyledArticles } from '../styles/ArticlesStyled'
 const Articles = ({ articles }) => {
     return (
         <StyledArticles>
-            <div className="container ">
+            <div className=" ">
             {
                 articles.map(item => (
                     <a href={item.link} target='_blank' rel="noreferrer">

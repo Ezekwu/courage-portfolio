@@ -9,7 +9,7 @@ import { useState } from "react"
 
 const Homepage = () => {
     const headerMessage ={
-        content: "Hey! i'm courage, the one-stop person for your product design needs"
+        content: "Hey! i'm courage, the one-stop person for your product design needs."
     }
 
     let articlesFiltred = []
