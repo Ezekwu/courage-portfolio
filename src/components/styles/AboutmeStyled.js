@@ -79,4 +79,71 @@ h3{
         }
     }
 }
+@media(max-width:850px) {
+    & > div{
+        padding: 3rem 0;
+    }
+    
+    .philosopy{
+        .row-1{
+        flex-direction: column;
+        gap: 3rem;
+        .col-1{
+            width: 100%;
+        }
+        .col-2{
+            img{
+                width: 100%;
+            }
+            
+            width:100%
+            
+        }
+    }
+    }
+    .goal-skills{
+        .row-2{
+            flex-direction: column;
+        .col-1{
+            width: 100%;
+        }
+        .col-2{
+            width: 100%;
+        }
+    }
+    }
+
+    .experience{
+        
+    h2{
+            margin-bottom: 3rem;
+        }
+    .experience-row{
+        flex-direction: column;
+        margin-bottom: 3rem;
+        gap: 2rem;
+        
+        h3{
+            margin-bottom: .5rem;
+        }
+        .col-1{
+            width: 100%;
+        }
+        .col-2{
+            width: 100%;
+            
+            li{
+                margin-bottom: 1.5rem;
+                list-style-type: square;
+                padding-left: .6rem;
+            }
+            li::marker{
+                
+                font-size: .55rem;
+            }
+        }
+    }
+}
+}
+
 `

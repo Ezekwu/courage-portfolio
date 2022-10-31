@@ -38,4 +38,19 @@ padding-top: 1.5rem;
     }
 }
 
+
+@media(max-width:650px) {
+    padding-top: 1rem;
+    .item{
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+}
+@media(max-width:450px) {
+    padding-top: .8rem;
+    .item{
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+}
+}
 `

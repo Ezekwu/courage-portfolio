@@ -27,4 +27,16 @@ a{
         gap: 1rem;
     }
 }
+@media(max-width:650px) {
+    &>div{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        a{
+            img{
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
 `

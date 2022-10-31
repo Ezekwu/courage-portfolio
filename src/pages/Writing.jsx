@@ -8,7 +8,9 @@ const Writing = () => {
         <div>
             <Header content='Writing' type='link'/>
             <div className=" article-wrapper">
+                <div className="container">
                 <Articles articles={articlesData} />
+                </div>
             </div>
             
         </div>

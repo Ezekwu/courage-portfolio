@@ -36,5 +36,48 @@ export const StyledContact = styled.main`
         }
     }
 
-    
+    @media(max-width:950px) {
+        .flex{
+            flex-direction: column;
+            gap: 3rem;
+        
+        .card{
+            width: 70%;
+            
+            p{
+                margin-bottom: 4rem;
+            }
+        }
+        .details{
+            padding-right: 0rem;
+            a{
+                font-size: 1.5rem;
+            }
+        }
+    }
+    }
+
+    @media(max-width:850px) {
+        padding: 3rem 0 4rem;
+
+        .flex{
+            .details{
+            a{
+                font-size: 1.3rem;
+            }
+        }
+        }
+        
+    }
+    @media(max-width:550px) {
+        .flex{
+            .card{
+                width:100%;
+                p{
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+        
+    }
 `

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
 color: #fff;
 
-padding-bottom: 5rem;
+// padding-bottom: 5rem;
 
 
 //HOME PAGE HEADER
@@ -27,12 +27,15 @@ padding-bottom: 5rem;
     }
 }
 .start-project{
-    background-color: white;
-    color: black;
-    text-decoration: none;
-    visibility: hidden;
-    padding: 1.2rem 5rem;
-    border-radius: 50px;
+    padding-bottom:4.8rem;
+    a{
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        visibility: hidden;
+        padding: 1.2rem 5rem;
+        border-radius: 50px;
+    }
 }
 
 .link-h2{
@@ -91,7 +94,9 @@ padding-bottom: 5rem;
         display: none;
     }
     .start-project{
-        visibility: visible;
+        a{
+            visibility: visible;
+        }
     }
     .about{
         h1{
@@ -112,17 +117,34 @@ padding-bottom: 5rem;
         margin-top: 2rem;
         line-height: 2.3rem;
     }
+    .about{
+        h1{
+            font-size: 2rem;
+            line-height: 2.3rem;
+        }
+        p{
+            font-size: .857rem;
+        }
+    }
 }
 
 @media(max-width:550px) {
     .homepage-h1{
-        width: 100%;
+        width: 80%;
         font-size: 2rem;
         margin-top: 2rem;
         line-height: 2.3rem;
     }
     .start-project{
-        padding: .8rem 3.5rem;
+        a{
+            padding: .8rem 3.5rem;
+        }
+    }
+}
+
+@media(max-width:450px) {
+    .homepage-h1{
+        width: 100%;
     }
 }
 `

@@ -3,7 +3,10 @@ import GradientImg from '../../assets/images/hero-gradient.png'
 import StartProject from '../../assets/images/start-a-project.png'
 import { StyledHeader } from '../styles/HeaderStyle'
 import Navbar from './Navbar'
+import { motion } from 'framer-motion'
+import { variants } from '../variants/variants'
 const Header = ({content, type}) => {
+    
     return (
         <StyledHeader  style={{
             background: `url(${GradientImg}) `,
@@ -12,20 +15,36 @@ const Header = ({content, type}) => {
         }} >
             <div className="container">
                 <Navbar />
-                {type === 'homepage' && <h1 className='homepage-h1'>{content}</h1>}
-                {type === 'homepage' &&  <div className='img-container'><img src={StartProject} alt="start a project" /></div>}
-                {type === 'homepage' && <a href='' className='start-project'> start a project</a>}
-                {type === 'link' && <div className='link-h2'>
-                    <h2>{content}</h2>
+                {type === 'homepage' && <motion.div 
+                className='homepage-h1'
+                variants={variants.fadeUpDelay}
+                initial='hidden'
+                animate='visible'
+                
+                >{content}</motion.div>}
+
+                {type === 'homepage' &&  <div className='img-container'> <a href="https://calendly.com/courageegbude/30min" target='_blank' rel="noreferrer"><img src={StartProject} alt="start a project" /></a></div>}
+
+                {type === 'homepage' && <div className='start-project'><a href='https://calendly.com/courageegbude/30min' target='_blank' rel="noreferrer"> start a project</a> </div>}
+                {type === 'link' && <div className='link-h2'
+                >
+                    <motion.h2
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    animate='visible'>{content}</motion.h2>
                 </div>
                 }
                 {
-                    type === 'about' && <div className="about">
-                        <h1 className="about-h1">Hey! I’m Courage, a product <br /> designer and writer <br /> based in Nigeria.</h1>
+                    type === 'about' && <motion.div className="about"
+                    variants={variants.fadeUpDelay}
+                        initial='hidden'
+                        animate='visible'>
+                        <h1 className="about-h1"
+                        >Hey! I’m Courage, a product <br /> designer and writer <br /> based in Nigeria.</h1>
 
                         <p>Based in Africa - Avaliabe worldwide</p>
 
-                    </div>
+                    </motion.div>
                 }
             </div>
         </StyledHeader>

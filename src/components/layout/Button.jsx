@@ -1,9 +1,11 @@
 import GradientImg from '../../assets/images/hero-gradient.png'
 import { StyledButton } from '../styles/ButtonStyled'
-const Button = ({ content }) => {
+const Button = ({ content, link }) => {
     return (
         <StyledButton 
-        href=""
+        href={link}
+        target='_blank' 
+        rel="noreferrer"
         style={{
             background: `url(${GradientImg}) `,
             backgroundRepeat: 'no-repeat',

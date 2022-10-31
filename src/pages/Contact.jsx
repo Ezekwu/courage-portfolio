@@ -9,7 +9,7 @@ const Contact = () => {
                 <div className="flex container">
                     <div className="card">
                         <p>I’m currently available to take on new projects, so feel free to find a spot in my calendar for a meeting where we can talk about everything related to your project</p>
-                        <Button content='Book Meeting'/>
+                        <Button content='Book Meeting' link='https://calendly.com/courageegbude/30min'/>
                     </div>
                     <div className="details">
                         <div className="row">

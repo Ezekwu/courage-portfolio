@@ -26,7 +26,10 @@ code {
   font-family:"Maby medium";
   src: url(./components/styles/fonts/Mabry-Pro-Medium.ttf);
 }
-
+html,
+body {
+  /* cursor: none; */
+}
 *{
   font-family:"Maby Regular" ;
   font-weight: lighter;

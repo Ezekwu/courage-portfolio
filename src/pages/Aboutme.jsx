@@ -13,7 +13,7 @@ const Aboutme = () => {
                         <p>I grew up in the computer age and have been fascinated with technology - and all kinds of gadgets and gizmos - since I was a little kid.</p>
                         <p>My design philosophy is straightforward: Understand your project's target audience and goals, then help your users achieve their purposes by crafting intuitive, easy-to-use interfaces that are stunning. would be highlighting the major problem solved.</p>
                     </div>
-                    <div className="col-1">
+                    <div className="col-2">
                         <img src={profileImg} alt="" />
                     </div>
                 </div>

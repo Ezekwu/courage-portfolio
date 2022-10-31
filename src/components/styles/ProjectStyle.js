@@ -2,8 +2,11 @@ import styled from "styled-components";
 export const StyledProject = styled.div`
 padding: 3.8rem 0;
 
+a{
+    text-decoration: none;
+}
 img{
-    /* height: 400px; */
+    
     margin-bottom: .8rem;
     
 }
@@ -28,5 +31,14 @@ img{
     .description{
         width: 90%;
     }
+}
+
+@media(max-width:650px) {
+    padding: 3rem 0;
+    .wrapper-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }  
 }
 `
