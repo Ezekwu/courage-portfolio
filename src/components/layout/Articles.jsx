@@ -1,5 +1,5 @@
-import React from 'react'
-
+import { motion } from 'framer-motion'
+import { variants } from '../variants/variants'
 import { StyledArticles } from '../styles/ArticlesStyled'
 const Articles = ({ articles }) => {
     return (
@@ -8,13 +8,28 @@ const Articles = ({ articles }) => {
             {
                 articles.map(item => (
                     <a href={item.link} target='_blank' rel="noreferrer">
-                        <img src={item.image} alt="" />
-                        <h4 className='title'>{item.title}</h4>
-                        <p className='description'>{item.description}</p>
-                        <p className="date-readtime">
+                        <motion.img 
+                        src={item.image} 
+                        alt="" 
+                        variants={variants.fadeUp}
+                        initial='hidden'
+                        whileInView='visible'/>
+                        <motion.h4 
+                        className='title'
+                        variants={variants.fadeUpDelay}
+                        initial='hidden'
+                        whileInView='visible'>{item.title}</motion.h4>
+                        <motion.p className='description'
+                        variants={variants.fadeUpDelay}
+                        initial='hidden'
+                        whileInView='visible'>{item.description}</motion.p>
+                        <motion.p className="date-readtime"
+                        variants={variants.fadeUpDelay}
+                        initial='hidden'
+                        whileInView='visible'>
                             <span>{item.date}</span>
                             <span>{item.readTime}</span>
-                        </p>
+                        </motion.p>
                     </a>
                 ))
             }

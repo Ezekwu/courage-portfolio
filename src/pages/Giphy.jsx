@@ -12,6 +12,10 @@ import  lowfi  from '../assets/images/Giphy/Group 19619.png'
 import  hifi  from '../assets/images/Giphy/Giphystud(1).png'
 import Projects from '../components/layout/Projects'
 import { projectsInfo } from '../data/projects/Projects'
+import { motion } from 'framer-motion'
+import { variants } from '../components/variants/variants'
+
+
 const Giphy = () => {
     let filteredProjects = []
     const projectData = () => {
@@ -24,105 +28,268 @@ const Giphy = () => {
         <StyledProjectOverview>
             <Header  content='Projects' type='link'/>
             <div className="container wrapper">
-                <img src={frame1} alt="" />
-                <h2 className="title title-casestudy">
+                <motion.img 
+                variants={variants.fadeUp}
+                initial='hidden'
+                whileInView='visible'
+                src={frame1} alt="" />
+                <motion.h2 
+                variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    className="title title-casestudy">
                 👾 Giphy Stud
-                </h2>
+                </motion.h2>
                 <div className="row">
-                    <p>Increasing the click and conversion rate of emails, with a GIFs</p>
+                    <motion.p 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>Increasing the click and conversion rate of emails, with a GIFs</motion.p>
                 </div>
                 <div className="border-div row">
                     <div className="col-1">
-                        <h3>Time</h3>
-                        <p>May-August 2022</p>
+                        <motion.h3 
+                        variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >Time</motion.h3>
+                        <motion.p 
+                        variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>May-August 2022</motion.p>
                     </div>
                     <div className="col-2">
-                        <h3>Platform</h3>
-                        <p>Responsive Website</p>
+                        <motion.h3 
+                        variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >Platform</motion.h3>
+                        <motion.p 
+                        variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>Responsive Website</motion.p>
                     </div>
                     <div className="col-3">
-                        <h3>Role</h3>
-                        <p>UI Design, UX Research.</p>
+                        <motion.h3 
+                        variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >Role</motion.h3>
+                        <motion.p 
+                        variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>UI Design, UX Research.</motion.p>
                     </div>
                 </div>
                 <div className="row">
-                    <h3>Intro</h3>
-                    <p>GIFs have been used to express emotion, as well as to demonstrate things in an easy-to-understand way. They're so visual and easy to understand; GIFs are a great way to communicate complex ideas. An excellent way to deliver complex messages quickly and concisely.</p>
+                    <motion.h3 
+                    variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >Intro</motion.h3>
+                    <motion.p 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>GIFs have been used to express emotion, as well as to demonstrate things in an easy-to-understand way. They're so visual and easy to understand; GIFs are a great way to communicate complex ideas. An excellent way to deliver complex messages quickly and concisely.</motion.p>
                 </div>
                 <div className="row">
-                    <h3>My Role</h3>
-                    <p>I carried out to the end-to-end process for this project, from the research stages to the final design stage. I worked alone on this as a UX Research and UI Designer.</p>
+                    <motion.h3 
+                    variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >My Role</motion.h3>
+                    <motion.p 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>I carried out to the end-to-end process for this project, from the research stages to the final design stage. I worked alone on this as a UX Research and UI Designer.</motion.p>
                 </div>
                 <div className="row">
-                    <h3>Problem</h3>
-                    <p>People love to feel and are more attached to brands and products that give off an emotion, the conventional way of marketing products have been fantastic but needs a lot of improvement in terms of understanding and considering people’s feelings</p>
+                    <motion.h3 
+                    variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >Problem</motion.h3>
+                    <motion.p 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>People love to feel and are more attached to brands and products that give off an emotion, the conventional way of marketing products have been fantastic but needs a lot of improvement in terms of understanding and considering people’s feelings</motion.p>
                 </div>
                 <div className="row">
-                    <h3>Goals</h3>
-                    <p>With Giphystud we came up with an even better way to engage user and also drive the businesses emotion into while at  it.
+                    <motion.h3 
+                    variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >Goals</motion.h3>
+                    <motion.p 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>With Giphystud we came up with an even better way to engage user and also drive the businesses emotion into while at  it.
 
 
-                    </p>
+                    </motion.p>
                     <div className="list">
-                        <p>For this project we had four major goals</p>
+                        <motion.p 
+                        variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>For this project we had four major goals</motion.p>
                         <ul>
-                            <li>Make content more memorable</li>
-                            <li>Improve user engagement and response</li>
-                            <li>Show the brands culture and what they stand for</li>
-                            <li>Give a more realistic approach to products</li>
+                            <motion.li 
+                            variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>Make content more memorable</motion.li>
+                            <motion.li 
+                            variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>Improve user engagement and response</motion.li>
+                            <motion.li 
+                            variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>Show the brands culture and what they stand for</motion.li>
+                            <motion.li 
+                            variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>Give a more realistic approach to products</motion.li>
                         </ul>
                     </div>
                 </div>
                 <div className="row">
-                    <h3>Design Process</h3>
-                    <img src={designProcess} alt="" />
+                    <motion.h3 
+                    variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >Design Process</motion.h3>
+                    <motion.img 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible' src={designProcess} alt="" />
                 </div>
                 <div className="row">
-                    <h3>UX Research</h3>
-                    <p>I conducted interviews asking participants asking them to state their experiences receiving marketing materials from brands, a lot of them probably couldn’t even remember the contents of such materials, user although found it easier to recall images they could have seen while going through them and felt more connected to the brand personally when GIFs were used, they were also convicted that the company were much more intentional about convicting them. This lead to increase in open and click in the majority of the users and increase in conversion rate.</p>
+                    <motion.h3 
+                    variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >UX Research</motion.h3>
+                    <motion.p 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>I conducted interviews asking participants  to state their experiences receiving marketing materials from brands, a lot of them probably couldn’t even remember the contents of such materials, user although found it easier to recall images they could have seen while going through them and felt more connected to the brand personally when GIFs were used, they were also convicted that the company were much more intentional about convicting them. This lead to increase in open and click in the majority of the users and increase in conversion rate.</motion.p>
                 </div>
                 <div className="row">
-                    <h3>Quantitative Research</h3>
-                    <p>Based on our research, we discover that an GIF-Centered email campaign could bring about</p>
+                    <motion.h3 
+                    variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >Quantitative Research</motion.h3>
+                    <motion.p 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>Based on our research, we discover that an GIF-Centered email campaign could bring about</motion.p>
                 </div>
-                <img src={research} alt="" />
+                <motion.img 
+                variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    src={research} alt="" />
                 <div className="row">
-                    <h3>User Persona</h3>
-                    <img src={user} alt="" />
-                </div>
-                <div className="row">
-                    <h3>Empathy map</h3>
-                    <img src={empathy} alt="" />
-                </div>
-                <div className="row">
-                    <h3>Early Sketches</h3>
-                    <img src={sketch} alt="" />
-                </div>
-                <div className="row">
-                    <h3>Style guide</h3>
-                    <img src={styleGuide} alt="" />
-                </div>
-                <div className="row">
-                    <h3>Low FI</h3>
-                    <img src={lowfi} alt="" />
-                </div>
-                <div className="row">
-                    <h3>Hi-fi</h3>
-                    <img src={hifi} alt="" />
+                    <motion.h3 
+                    variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >User Persona</motion.h3>
+                    <motion.img 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible' src={user} alt="" />
                 </div>
                 <div className="row">
-                    <h3>User Testing</h3>
-                    <p>After finalizing designs on Giphystud, an email blast was sent to various partners with a return of over 200k impressions.</p>
+                    <motion.h3 
+                    variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >Empathy map</motion.h3>
+                    <motion.img 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible' src={empathy} alt="" />
                 </div>
                 <div className="row">
-                    <h3>Next steps</h3>
-                    <p>For next steps we hope to continually maintain this system and engage more partners, also plans of a mobile application might come in the near future</p>
+                    <motion.h3 
+                    variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >Early Sketches</motion.h3>
+                    <motion.img 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible' src={sketch} alt="" />
                 </div>
-                <Button content='Visit website' link='https://giphystud.com/'/>
+                <div className="row">
+                    <motion.h3 
+                    variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >Style guide</motion.h3>
+                    <motion.img 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible' src={styleGuide} alt="" />
+                </div>
+                <div className="row">
+                    <motion.h3 
+                    variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >Low FI</motion.h3>
+                    <motion.img 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible' src={lowfi} alt="" />
+                </div>
+                <div className="row">
+                    <motion.h3 
+                    variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >Hi-fi</motion.h3>
+                    <motion.img 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible' src={hifi} alt="" />
+                </div>
+                <div className="row">
+                    <motion.h3 
+                    variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >User Testing</motion.h3>
+                    <motion.p 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>After finalizing designs on Giphystud, an email blast was sent to various partners with a return of over 200k impressions.</motion.p>
+                </div>
+                <div className="row">
+                    <motion.h3 
+                    variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    >Next steps</motion.h3>
+                    <motion.p 
+                    variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'>For next steps we hope to continually maintain this system and engage more partners, also plans of a mobile application might come in the near future</motion.p>
+                </div>
+                <Button  
+                variants={variants.fadeUpDelay}
+                    initial='hidden'
+                    whileInView='visible'content='Visit website' link='https://giphystud.com/'/>
                 <div className="other-projects">
-                        <h2 className="project-title">
+                        <motion.h2 
+                        variants={variants.fadeUp}
+                    initial='hidden'
+                    whileInView='visible'
+                    className="project-title">
                             Other Projects
-                        </h2>
+                        </motion.h2>
                         <Projects projectData={filteredProjects}/>
                 </div>
             </div>

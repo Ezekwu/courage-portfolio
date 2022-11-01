@@ -1,9 +1,16 @@
 import { StyledFooter } from "../styles/FooterStyled"
 import { Link } from "react-router-dom"
+import { motion } from "framer-motion"
+import { variants } from "../variants/variants"
 const Footer = () => {
     return (
         <StyledFooter>
-            <div className="container wrapper">
+            <motion.div 
+            className="container wrapper"
+            variants={variants.fadeUp}
+            initial='hidden'
+            whileInView='visible'
+            >
                 <div className="col-1">
                     <h3>Courage Egbude</h3>
                     <p>2022. Built by Courage Egbude</p>
@@ -26,7 +33,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </StyledFooter>
     )
 }

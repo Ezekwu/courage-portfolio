@@ -23,7 +23,12 @@ const Header = ({content, type}) => {
                 
                 >{content}</motion.div>}
 
-                {type === 'homepage' &&  <div className='img-container'> <a href="https://calendly.com/courageegbude/30min" target='_blank' rel="noreferrer"><img src={StartProject} alt="start a project" /></a></div>}
+                {type === 'homepage' &&  <div className='img-container'> <a href="https://calendly.com/courageegbude/30min" target='_blank' rel="noreferrer"><motion.img 
+                initial={{rotate: 0}}
+                animate={{ rotate: 360 }}
+                transition={{ repeat: Infinity, duration: 2 }}
+                src={StartProject} 
+                alt="start a project" /></a></div>}
 
                 {type === 'homepage' && <div className='start-project'><a href='https://calendly.com/courageegbude/30min' target='_blank' rel="noreferrer"> start a project</a> </div>}
                 {type === 'link' && <div className='link-h2'
