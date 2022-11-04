@@ -132,11 +132,15 @@ h3{
         .col-2{
             width: 100%;
             
-            li{
+            ul{
+                padding-left: 2rem;
+                li{
                 margin-bottom: 1.5rem;
                 list-style-type: square;
                 padding-left: .6rem;
             }
+            }
+            
             li::marker{
                 
                 font-size: .55rem;

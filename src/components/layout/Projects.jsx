@@ -14,6 +14,7 @@ const Projects = ({projectData}) => {
                             <div className="project-item">
                                 <motion.img 
                                 src={project.image} alt="" 
+                                loading="lazy"
                                 variants={variants.fadeUp}
                                 initial='hidden'
                                 whileInView='visible'

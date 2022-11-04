@@ -40,6 +40,7 @@ const Decentrelon = () => {
                 whileInView='visible'
                 className="title">🐦 Freebird</motion.h2>
                 <motion.img 
+                loading="lazy"
                 variants={variants.fadeUp}
                 initial='hidden'
                 whileInView='visible'
@@ -124,6 +125,7 @@ const Decentrelon = () => {
                     </div>
                 </div>
                 <motion.img 
+                loading="lazy"
                 variants={variants.fadeUp}
                 initial='hidden'
                 whileInView='visible'
@@ -147,11 +149,13 @@ const Decentrelon = () => {
                     </div>
                 </div>
                 <motion.img 
+                loading="lazy"
                 variants={variants.fadeUp}
                 initial='hidden'
                 whileInView='visible'
                 src={projectExodus1} alt="" className='big-img' />
                 <motion.img 
+                loading="lazy"
                 variants={variants.fadeUp}
                 initial='hidden'
                 whileInView='visible'
@@ -169,11 +173,13 @@ const Decentrelon = () => {
                     >From the insight gotten, we decided to focus on a step-by-step on boarding system so users do not get overwhelmed, by allowing users register for the airdrop and them creating a roadmap that educates them to learn about the application beforing moving forward to download the application. We also engaged onboarded users who registered for the airdrop by answering questions and providing updates via Telegram and Discord, this helped to make sure that they were not kept in the dark regarding our process, ensuring trust and transparency</motion.p>
                 </div>
                 <motion.img 
+                loading="lazy"
                 variants={variants.fadeUp}
                 initial='hidden'
                 whileInView='visible'
                 src={frame1} alt="" className='big-img' />
                 <motion.img 
+                loading="lazy"
                 variants={variants.fadeUp}
                 initial='hidden'
                 whileInView='visible'
@@ -193,6 +199,7 @@ const Decentrelon = () => {
                     >The visual design was centered around creating a delightful experience for Freebird users. The High-fidelity screens also established an easy-to-use platform and an onboarding experience for users not familiar with buzz words in tech to encourage useful feedback and interactive usability tests. </motion.p>
                 </div>
                 <motion.img 
+                loading="lazy"
                 variants={variants.fadeUp}
                 initial='hidden'
                 whileInView='visible'

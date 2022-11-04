@@ -128,6 +128,7 @@ const Socialverse = () => {
                         </div> 
                     </div>
                     <motion.img 
+                    loading="lazy"
                     variants={variants.fadeUp}
                     initial='hidden'
                     whileInView='visible'
@@ -192,11 +193,13 @@ const Socialverse = () => {
                         </div>
                     </div>
                     <motion.img 
+                    loading="lazy"
                     variants={variants.fadeUp}
                     initial='hidden'
                     whileInView='visible'
                     src={frame1} alt="" />
                     <motion.img 
+                    loading="lazy"
                     variants={variants.fadeUp}
                     initial='hidden'
                     whileInView='visible'

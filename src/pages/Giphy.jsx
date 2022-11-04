@@ -29,6 +29,7 @@ const Giphy = () => {
             <Header  content='Projects' type='link'/>
             <div className="container wrapper">
                 <motion.img 
+                loading="lazy"
                 variants={variants.fadeUp}
                 initial='hidden'
                 whileInView='visible'
@@ -159,6 +160,7 @@ const Giphy = () => {
                     whileInView='visible'
                     >Design Process</motion.h3>
                     <motion.img 
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible' src={designProcess} alt="" />
@@ -186,6 +188,7 @@ const Giphy = () => {
                     whileInView='visible'>Based on our research, we discover that an GIF-Centered email campaign could bring about</motion.p>
                 </div>
                 <motion.img 
+                loading="lazy"
                 variants={variants.fadeUp}
                     initial='hidden'
                     whileInView='visible'
@@ -197,6 +200,7 @@ const Giphy = () => {
                     whileInView='visible'
                     >User Persona</motion.h3>
                     <motion.img 
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible' src={user} alt="" />
@@ -208,6 +212,7 @@ const Giphy = () => {
                     whileInView='visible'
                     >Empathy map</motion.h3>
                     <motion.img 
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible' src={empathy} alt="" />
@@ -219,6 +224,7 @@ const Giphy = () => {
                     whileInView='visible'
                     >Early Sketches</motion.h3>
                     <motion.img 
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible' src={sketch} alt="" />
@@ -230,6 +236,7 @@ const Giphy = () => {
                     whileInView='visible'
                     >Style guide</motion.h3>
                     <motion.img 
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible' src={styleGuide} alt="" />
@@ -241,6 +248,7 @@ const Giphy = () => {
                     whileInView='visible'
                     >Low FI</motion.h3>
                     <motion.img 
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible' src={lowfi} alt="" />
@@ -252,6 +260,7 @@ const Giphy = () => {
                     whileInView='visible'
                     >Hi-fi</motion.h3>
                     <motion.img 
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible' src={hifi} alt="" />

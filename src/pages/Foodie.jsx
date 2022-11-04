@@ -29,6 +29,7 @@ const Foodie = () => {
             <Header  content='Projects' type='link'/>
             <div className="wrapper container">
                 <motion.img
+                loading="lazy"
                 variants={variants.fadeUp}
                 initial='hidden'
                 whileInView='visible'
@@ -150,6 +151,7 @@ const Foodie = () => {
                     initial='hidden'
                     whileInView='visible'>Design Process</motion.h3>
                     <motion.img
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible'
@@ -177,6 +179,7 @@ const Foodie = () => {
                     initial='hidden'
                     whileInView='visible'>User Persona</motion.h3>
                     <motion.img
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible' 
@@ -188,6 +191,7 @@ const Foodie = () => {
                     initial='hidden'
                     whileInView='visible'>Task Mapping</motion.h3>
                     <motion.img
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible'
@@ -199,6 +203,7 @@ const Foodie = () => {
                     initial='hidden'
                     whileInView='visible'>User Flow</motion.h3>
                     <motion.img 
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible'
@@ -210,6 +215,7 @@ const Foodie = () => {
                     initial='hidden'
                     whileInView='visible'>Empathy map</motion.h3>
                     <motion.img
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible'
@@ -221,6 +227,7 @@ const Foodie = () => {
                     initial='hidden'
                     whileInView='visible'>Style guide</motion.h3>
                     <motion.img 
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible'
@@ -232,6 +239,7 @@ const Foodie = () => {
                     initial='hidden'
                     whileInView='visible'>Early Sketches</motion.h3>
                     <motion.img 
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible'
@@ -243,6 +251,7 @@ const Foodie = () => {
                     initial='hidden'
                     whileInView='visible'>Major screens</motion.h3>
                     <motion.img
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible'
@@ -254,6 +263,7 @@ const Foodie = () => {
                     initial='hidden'
                     whileInView='visible'>Hi-fi</motion.h3>
                     <motion.img 
+                    loading="lazy"
                     variants={variants.fadeUpDelay}
                     initial='hidden'
                     whileInView='visible'

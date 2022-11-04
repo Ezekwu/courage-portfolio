@@ -30,7 +30,7 @@ const Header = ({content, type}) => {
                 src={StartProject} 
                 alt="start a project" /></a></div>}
 
-                {type === 'homepage' && <div className='start-project'><a href='https://calendly.com/courageegbude/30min' target='_blank' rel="noreferrer"> start a project</a> </div>}
+                {type === 'homepage' && <div className='start-project'><a href='https://calendly.com/courageegbude/30min' target='_blank' rel="noreferrer"> Start a project</a> </div>}
                 {type === 'link' && <div className='link-h2'
                 >
                     <motion.h2

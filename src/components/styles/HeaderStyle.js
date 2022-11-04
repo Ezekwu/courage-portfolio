@@ -11,7 +11,7 @@ color: #fff;
     margin-top: 4rem;
     margin-bottom: 1rem;
     width: 55%;
-    font-size: 3.3rem;
+    font-size: 3.75rem;
     font-weight: bold;
     font-family: 'Fraunces', serif;
     line-height: 4rem;
@@ -53,7 +53,7 @@ color: #fff;
     text-align: center;
 
     h1{
-        font-size: 3.3rem;
+        font-size: 3.75rem;
         font-weight: bold;
         font-family: 'Fraunces', serif;
         line-height: 4rem;

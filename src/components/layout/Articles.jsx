@@ -11,6 +11,7 @@ const Articles = ({ articles }) => {
                         <motion.img 
                         src={item.image} 
                         alt="" 
+                        loading="lazy"
                         variants={variants.fadeUp}
                         initial='hidden'
                         whileInView='visible'

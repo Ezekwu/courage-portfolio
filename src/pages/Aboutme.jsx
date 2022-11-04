@@ -31,6 +31,7 @@ const Aboutme = () => {
                     <div className="col-2">
                         <motion.img src={profileImg}
                         alt="" 
+                        loading="lazy"
                         variants={variants.fadeUp}
                         initial='hidden'
                         whileInView='visible'

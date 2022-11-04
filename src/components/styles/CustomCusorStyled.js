@@ -10,4 +10,7 @@ overflow: hidden;
 transform: translate3d(0,0,0);
 position: fixed;
 
+@media(max-width: 850px) {
+    display: none;
+}
 `
