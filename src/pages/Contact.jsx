@@ -39,8 +39,8 @@ const Contact = () => {
                             variants={variants.fadeUpDelay}
                             initial='hidden'
                             whileInView='visible'>
-                            <a 
-                            href="">+2347069591813</a>
+                            <p className="number" 
+                            >+2347069591813</p>
                             </motion.div>
                             
                         </div>

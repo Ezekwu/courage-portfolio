@@ -5,7 +5,6 @@ import { projectsInfo } from "../data/projects/Projects"
 import { articlesData } from "../data/articles/articles"
 import { StyledHomepage } from "../components/styles/HomepageStyled"
 import Accordion from "../components/layout/Accordion"
-import { useState } from "react"
 import { motion } from "framer-motion"
 import { variants } from "../components/variants/variants"
 

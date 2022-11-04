@@ -1,7 +1,6 @@
 import React from 'react'
 import { StyledProjectOverview } from '../components/styles/ProjectOverviewStyled'
 import Header from '../components/layout/Header'
-import Button from '../components/layout/Button'
 
 import Foodieimg from '../assets/images/Foodie/image 1(1).png'
 import designProcess from '../assets/images/Foodie/Frame 16047.png'
