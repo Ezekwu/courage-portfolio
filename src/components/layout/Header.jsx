@@ -26,7 +26,7 @@ const Header = ({content, type}) => {
                 {type === 'homepage' &&  <div className='img-container'> <a href="https://calendly.com/courageegbude/30min" target='_blank' rel="noreferrer"><motion.img 
                 initial={{rotate: 0}}
                 animate={{ rotate: 360 }}
-                transition={{ repeat: Infinity, duration: 2 }}
+                transition={{ repeat: Infinity, duration: 4 }}
                 src={StartProject} 
                 alt="start a project" /></a></div>}
 

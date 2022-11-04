@@ -13,7 +13,8 @@ const Articles = ({ articles }) => {
                         alt="" 
                         variants={variants.fadeUp}
                         initial='hidden'
-                        whileInView='visible'/>
+                        whileInView='visible'
+                        />
                         <motion.h4 
                         className='title'
                         variants={variants.fadeUpDelay}
