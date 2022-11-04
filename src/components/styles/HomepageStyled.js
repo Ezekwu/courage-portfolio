@@ -40,6 +40,7 @@ export const StyledHomepage =  styled.div`
                     font-family: 'Fraunces', serif;
                     font-weight: bold;
                     font-size: 2.5rem;
+                    width: 30%;
                 }
             }
             .col-2{
@@ -68,6 +69,7 @@ export const StyledHomepage =  styled.div`
                 .col-1{
                     width: 100%;
                     h2{
+                        width: 100%;
                         font-size: 2rem;
                     }
                 }

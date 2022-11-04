@@ -57,7 +57,7 @@ const Homepage = () => {
                 initial='hidden'
                 whileInView='visible'>
                     <h2>
-                        Questions, <br /> answered.
+                        Questions,  answered.
                     </h2>
                 </motion.div>
                 <motion.div 
