@@ -11,7 +11,7 @@ const Accordion = () => {
             return setOpen(false)
         }
         setOpen(i)
-    }
+    }     
     return (
         <StyledAccordion>
             {
