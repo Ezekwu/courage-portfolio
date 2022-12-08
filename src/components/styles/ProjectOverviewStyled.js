@@ -5,11 +5,10 @@ background: #161616;
 img{
     min-width: 100%;
     margin-bottom: 1.5rem;
-    
 }
 
 .wrapper{
-    padding-top:3.8rem;
+    padding-top:3.8rem;   
     padding-bottom:3.8rem;
 }
 
