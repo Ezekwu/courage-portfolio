@@ -22,7 +22,7 @@ export const projectsInfo = [
     {
         image: Socialverse,
         icon:'🌍',
-        title: 'Socialverse',
+        title: 'Socialverse',   
         description:'Creating a Web 3.0 social media platform',
         link: '/projects/socialverse'
     },

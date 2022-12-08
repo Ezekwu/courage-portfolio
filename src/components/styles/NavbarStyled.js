@@ -11,7 +11,7 @@ a{
     
 }
 
-.logo{
+.logo a{
     font-size: 2rem;
     z-index: 2;
 }

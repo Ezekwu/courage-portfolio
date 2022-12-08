@@ -1,12 +1,12 @@
 import { StyledProjectOverview } from "../components/styles/ProjectOverviewStyled"
 import Header from "../components/layout/Header"
-import graph from '../assets/images/socialverse/623207ea24d807b5c3630491_graph2-min 1.png'
-import brandGuide from '../assets/images/socialverse/Brand Guide 1 1.png'
-import frame1 from '../assets/images/socialverse/Frame 16034.png'
-import frame2 from '../assets/images/socialverse/Frame 16038.png'
-import socialVerse1 from '../assets/images/socialverse/Scoial Verse.png'
-import socialVerse2 from '../assets/images/socialverse/Social verse Model 1.png'
-import socialVerse3 from '../assets/images/socialverse/Socialverse.png'
+import graph from '../assets/images/Socialverse/623207ea24d807b5c3630491_graph2-min 1.png'
+import brandGuide from '../assets/images/Socialverse/Brand Guide 1 1.png'
+import frame1 from '../assets/images/Socialverse/Frame 16034.png'
+import frame2 from '../assets/images/Socialverse/Frame 16038.png'
+import socialVerse1 from '../assets/images/Socialverse/Scoial Verse.png'
+import socialVerse2 from '../assets/images/Socialverse/Social verse Model 1.png'
+import socialVerse3 from '../assets/images/Socialverse/Socialverse.png'
 import Button from "../components/layout/Button"
 import Projects from "../components/layout/Projects"
 import { projectsInfo } from "../data/projects/Projects"

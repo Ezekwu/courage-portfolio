@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const StyledProjectOverview = styled.div`
 background: #161616;
 img{
-    /* width: 100%; */
+    min-width: 100%;
     margin-bottom: 1.5rem;
+    
 }
 
 .wrapper{

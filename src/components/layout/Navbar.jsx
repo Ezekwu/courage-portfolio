@@ -23,7 +23,10 @@ const Navbar = () => {
         
         >
             <div className="logo">
-                CE
+                <Link to='/'>
+                    CE
+                </Link>
+                
             </div>
             <div className="nav-links">
                 <ul className='desktop-nav'>

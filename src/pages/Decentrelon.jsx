@@ -1,8 +1,8 @@
 import Elondrop1 from '../assets/images/Decentrelon/Elondrop 8.png'
 import Elondrop2 from '../assets/images/Decentrelon/Elondrop 12.png'
 import Elondrop3 from '../assets/images/Decentrelon/Frame 16040.png'
-import frame1 from '../assets/images/Decentrelon/Frame 16038(1).png'
-import frame2 from '../assets/images/Decentrelon/Frame 16039 1.png'
+import frame1 from '../assets/images/Decentrelon/Frame 16038.png'
+import frame2 from '../assets/images/Decentrelon/Frame 16039.png'
 import projectExodus1 from '../assets/images/Decentrelon/Project Exodus Infographic_page-0001 1.png'
 import projectExodus2 from '../assets/images/Decentrelon/Project Exodus Infographic_page-0001 2.png'
 import { StyledProjectOverview } from '../components/styles/ProjectOverviewStyled'
@@ -12,7 +12,6 @@ import Projects from '../components/layout/Projects'
 import { projectsInfo } from "../data/projects/Projects"
 import { variants } from '../components/variants/variants'
 import { motion } from 'framer-motion'
-
 
 const Decentrelon = () => {
     let filteredProjects = []
