@@ -7,7 +7,7 @@ import frame2 from '../assets/images/Socialverse/Frame 16038.png'
 import socialVerse1 from '../assets/images/Socialverse/Scoial Verse.png'
 import socialVerse2 from '../assets/images/Socialverse/Social verse Model 1.png'
 import socialVerse3 from '../assets/images/Socialverse/Socialverse.png'
-import Button from "../components/layout/Button"
+import Button from "../components/layout/Button"    
 import Projects from "../components/layout/Projects"
 import { projectsInfo } from "../data/projects/Projects"
 import { motion } from "framer-motion"
