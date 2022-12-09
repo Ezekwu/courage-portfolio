@@ -10,7 +10,7 @@ import { variants } from "../components/variants/variants"
 
 const Homepage = () => {
     const headerMessage ={
-        content: "Hey! I'm Courage, the one-stop person for your product design needs."
+        content: "Hey! I'm Courage, the one-stop creative person for your product design needs."
     }
 
     let articlesFiltred = []

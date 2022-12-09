@@ -10,11 +10,11 @@ color: #fff;
 .homepage-h1{
     margin-top: 4rem;
     margin-bottom: 1rem;
-    width: 58%;
+    width: 67%;
     font-size: 4.7rem;
     font-weight: bold;
     font-family: 'Fraunces', serif;
-    line-height: 4.5rem;
+    line-height: 5rem;
     
     margin-bottom: 4rem;
 }
